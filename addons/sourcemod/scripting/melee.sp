@@ -91,7 +91,7 @@ public OnPluginStart()
 	}
 
 	StartPrepSDKCall(SDKCall_Entity);
-	PrepSDKCall_SetFromConf(hConf, SDKConf_Virtual, "CTFWeaponBase::WeaponReset");
+	PrepSDKCall_SetFromConf(hConf, SDKConf_Signature, "CTFWeaponBase::WeaponReset");
 	g_hSDKWeaponReset = EndPrepSDKCall();
 	if(g_hSDKWeaponReset == INVALID_HANDLE)
 	{
