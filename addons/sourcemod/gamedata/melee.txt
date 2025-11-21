@@ -2,12 +2,13 @@
 {
 	"tf"
 	{
-		"Offsets"
+		"Signatures"
 		{
 			"CTFWeaponBase::WeaponReset"
 			{
-				"linux"		"434"
-				"windows"	"427"
+				"library"			"engine"
+				"windows"			"\x55\x8B\xEC\xA1\x2A\x2A\x2A\x2A\x83\xEC\x50\x83\x78\x30"
+				"linux"				"@_ZN13CTFWeaponBase11WeaponResetEv"
 			}
 		}
 	}
